@@ -10,7 +10,7 @@ function Formulario ({ pacientes, setPacientes, paciente, setPaciente }) {
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    if (Object.keys(pacientes).length > 0) {
+    if (Object.keys(paciente).length > 0) {
       setNombre(paciente.nombre)
       setPropietario(paciente.propietario)
       setEmail(paciente.email)
